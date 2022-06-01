@@ -1,4 +1,4 @@
-import { Subject, BehaviorSubjec, ReplaySubject } from 'rxjs';
+import { Subject, BehaviorSubject, ReplaySubject } from 'rxjs';
 
 //#region  Subject...
   // const subject = new Subject<number>();
