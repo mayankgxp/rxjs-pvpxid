@@ -1,6 +1,6 @@
 import { Subject } from 'rxjs';
 
-// Subject...
+//#region  Subject...
 const subject = new Subject<number>();
 
 subject.subscribe({
@@ -12,5 +12,6 @@ subject.subscribe({
 
 subject.next(1);
 subject.next(2);
+//#endregion
 
 //Behavioral Subject
